@@ -1,0 +1,184 @@
+@media (max-width: 1199.5px) {
+    /* custom css */
+    h1{
+        font-size: 3.75rem;
+
+    }
+    h2{
+        font-size: 2.1875rem;
+    }
+    h3{
+        font-size: 1.875rem;
+        line-height: 2.6875rem;
+    }
+    h5{
+        font-size: 1.0625rem;
+    }
+    .flip-card {
+        width: 16rem;
+        height: 22rem;
+    }
+
+    /* blog */
+}
+
+
+@media (max-width: 991px) {
+    /* 2 Navbar  */
+
+    .banner_wrapper .rside{
+        width: 60%;
+        
+        
+    }
+    .banner_wrapper .lside{
+        background-color: black;
+        width: 40%;
+        height: 100vh;
+    }
+    .circle .c1,
+    .circle .c2{
+        aspect-ratio: 1; 
+        border-radius: 50%;   
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    
+    }
+    .banner-content{
+        margin-top: 3rem;
+        padding-left: 3rem;
+    
+    }
+    .icons{
+        margin-top: 3rem;
+    }
+    
+    .c1{
+        background-color:black;
+        width: 33rem;
+    }
+    .c2{
+        background-color: black;
+        width: 25rem;
+    }  
+
+    /* About */
+    
+}
+
+
+@media (max-width: 767px) {
+    /* custom css */
+    h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    h2{
+        font-size: 1.875rem;
+        line-height: 2.375rem;
+    }
+    h3{
+        font-size: 1.5625rem;
+        line-height: 2.1875rem;
+    }
+    main-btn{
+     padding: 0 1.625rem;
+     height: 10px;
+     width: 10px;
+
+    }
+        /* margin-right: auto;         */
+
+    
+  
+}
+
+
+
+@media (max-width: 575.5px) {
+    h1{
+        font-size: 2.3rem;
+        line-height: 2rem;
+    }
+    h2{
+        font-size: 1.575rem;
+        line-height: 1.375rem;
+    }
+    h3{
+        font-size: 0.5625rem;
+        line-height: 1.1875rem;
+    }
+
+    
+ 
+    .c1{
+        width: 25rem;
+        
+    }
+    .c2{
+        width: 20rem;
+    }
+    
+    /* 7 Blog */
+}
+
+
+
+@media (max-width: 390px) {
+    .circle .c1,
+    .circle .c2{
+        aspect-ratio: 1; 
+        border-radius: 50%;   
+        position: absolute;
+        top:50%;
+        left:53%;
+        transform: translate(-50%,-50%);
+    
+    }
+
+    .banner-content{
+        margin-top: 3rem;
+        padding-left: 2rem;
+    
+    }
+  
+    .icons{
+        margin-top: 3rem;
+    }
+    
+    .c1{
+        background-color:black;
+        width: 18rem;
+
+    }
+    .c2{
+        background-color: black;
+        width: 15rem;
+        border: 1.075rem solid #fff;
+        background-image: url('Images/im2.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 
+        0 0 1rem #fff,
+        inset 0 0 1rem #fff,
+        0 0 2rem rgba(4,65,215,1),
+        inset 0 0 2rem rgba(4,65,215,1),
+        0 0 4rem aqua,
+        inset 0 0 4rem aqua;
+    }
+    /* Top Banner*/
+}
+
+@media (max-width: 300px){
+    .c1{
+        background-color:black;
+        width: 15rem;
+
+    }
+    .c2{
+        background-color: black;
+        width: 12rem;
+    }
+}
